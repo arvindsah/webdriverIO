@@ -1,0 +1,12 @@
+gitIgnoreFileExample.js,
+ Framework files,
+        ../Test/,
+        ../fourth/
+        ../hay-test-framework
+        ../hay_copy.zip
+        ../hay_copy/
+        ../sshKeyPair
+        ../sshKeyPair.pub
+        ../webdriverIO-Framework/
+        ../wedriverIO-git/
+        ./
