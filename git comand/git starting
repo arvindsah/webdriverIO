@@ -34,9 +34,9 @@ git remote add origin <"clone">
 
 
 => Making chanages to project and comming them 
-0. Create your own branch 
-0.1 switch to that branch 
-0.2
+0. git branch <branch name> //Create your own branch 
+0.1  git checkout <branch name> //switch to that branch 
+0.2 git branch // will list all the local branch
 0.3 git status
 1. git add . or git all -A
 2. git commit -m 'comment'
