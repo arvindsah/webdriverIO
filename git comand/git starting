@@ -37,6 +37,10 @@ git remote add origin <"clone">
 0. git branch <branch name> //Create your own branch 
 0.1  git checkout <branch name> //switch to that branch 
 0.2 git branch // will list all the local branch
+or 
+
+git checkout -b NEW-BRANCH-NAME // to create and move to that branch
+
 0.3 git status
 1. git add . or git all -A
 2. git commit -m 'comment'
