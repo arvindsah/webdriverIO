@@ -51,6 +51,7 @@ git branch -d BRANCH-TO-DELETE // branch DELETE
    master
 4. git merge branch_Name
 5. git push origin master // push your code into remote master branch
+5. git push -u origin nweBranchName // push your code into remote new branch branch
 
    Delete a branch post merging into local master branch
 - git branch --merged // this will the branch ed merged into local master
