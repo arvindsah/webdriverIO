@@ -34,12 +34,31 @@ git remote add origin <"clone">
 
 
 => Making chanages to project and comming them 
+
+=> working with branchs
 0. git branch <branch name> //Create your own branch 
 0.1  git checkout <branch name> //switch to that branch 
 0.2 git branch // will list all the local branch
-or 
-
+      or 
 git checkout -b NEW-BRANCH-NAME // to create and move to that branch
+git branch -m OLD-BRANCH-NAME NEW-BRANCH-NAME // to rename the branch
+git branch -d BRANCH-TO-DELETE // branch DELETE
+
+Merge A Branch into local master
+1. git checkout master
+2. git pull origin master // to check if there is any new changes into remote master branch
+3. git branch --merged // this will give you the list of the all the branch which are merged local 
+   master
+4. git merge branch_Name
+5. git push origin master // push your code into remote master branch
+
+Delete a branch post merging into local master branch
+- git branch --merged // this will the branch ed merged into local master
+- git branch -d <branch_Name> // this will delete the local branch
+- git branch -a // this will give the all the remote branchs
+- git push origin --delete <remote_branch_Name> // this will delete the remote branch
+
+
 
 0.3 git status
 1. git add . or git all -A
