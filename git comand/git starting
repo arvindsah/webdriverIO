@@ -40,6 +40,7 @@ git remote add origin <"clone">
 0.3 git status
 1. git add . or git all -A
 2. git commit -m 'comment'
+   git pull origin master // origin is the name given to the remote repo url- check "git remote -v"
 3. git push origin 'branch name'
 
 
