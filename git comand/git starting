@@ -3,6 +3,7 @@
 2. git close URL // clone the repo
 3. cd projectFolderName // imp
 4. git remote -v // view all the acitve connevtions
+something else
 
 =>adding the url for private repository
 git remote set-url origin https://YOUR_GITHUB_USER@github.com/aceofwings/RotairERP.git
