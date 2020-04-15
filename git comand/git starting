@@ -60,7 +60,7 @@ git branch -d BRANCH-TO-DELETE // branch DELETE
 
 
 
-0.3 git status
+   0.3 git status
 1. git add . or git all -A
 2. git commit -m 'comment'
    git pull origin master // origin is the name given to the remote repo url- check "git remote -v"
