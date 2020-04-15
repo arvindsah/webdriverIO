@@ -5,6 +5,9 @@
 4. git remote -v // view all the acitve connevtions
 something else
 
+//just see
+
+
 =>adding the url for private repository
 git remote set-url origin https://YOUR_GITHUB_USER@github.com/aceofwings/RotairERP.git
 
