@@ -3,12 +3,14 @@ DONE use this one - 1. git init // to start the repo in particular location
 2. git close URL // clone the repo
 3. cd projectFolderName 
 
+=>adding the url for private repository
+git remote set-url origin https://YOUR_GITHUB_USER@github.com/aceofwings/RotairERP.git
+
 
 => Updating the Comitter name and emaild addess
-
+ git config --list// to check the name and email
  git config --global user.name "Arvind Sah"
  git config --global user.email "ArvindSah005@gmail.com"
- git config --list// to check the name and email
  git help config/  git config help
 
 
@@ -42,11 +44,14 @@ git remote add origin <"clone">
 - git reset <some file> //to remove specific file name from staging area
 - git log // will give you the all the info post moving the changes to staging area
 - ls -la// list of files with the time stamp
-git remote -v
+git remote -v // this will help you to get the remotely connected connection
 git branch -a
 git diff// view all the changes done
+add <shortname> <URL> // this wil help you to add new remote connections
+rename <old-name> <new-name> //Renames the remote connection.
 
 
 
 Some other source links-
 https://dev.to/juni/git-and-github---must-know-commands-to-make-your-first-commit-333c
+
