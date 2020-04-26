@@ -5,6 +5,12 @@
 4. git remote -v // view all the acitve connevtions
 something else
 
+Push your code for new repo is just created -- first create the repo name over githib
+git remote add origin sjdfkjlsd.githug.git // add remote repo
+git push -u ogigin master
+
+
+
 //just see
 
 
