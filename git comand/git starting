@@ -1,5 +1,7 @@
+// for pushing the exisint repo and if it has some error try this- "git pull origin master --allow-unrelated-histories"
 0. Open the the git command line at the location where you want to set-up the project
-//DONE use this one - 1. git init // to start the repo in particular location
+//DONE use this one - 
+1. git init // to start the repo in particular location
 2. git close URL // clone the repo
 3. cd projectFolderName // imp
 4. git remote -v // view all the acitve connevtions
