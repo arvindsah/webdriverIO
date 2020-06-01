@@ -94,3 +94,8 @@ rename <old-name> <new-name> //Renames the remote connection.
 Some other source links-
 https://dev.to/juni/git-and-github---must-know-commands-to-make-your-first-commit-333c
 https://www.youtube.com/watch?v=HVsySz-h9r4
+
+
+To rmove some file from staging areasd
+git reset HEAD -- <file>
+
